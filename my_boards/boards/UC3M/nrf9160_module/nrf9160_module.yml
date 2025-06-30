@@ -1,0 +1,10 @@
+identifier: nrf9160_module/nrf9160
+name: nrf9160 module 
+vendor: UC3M
+type: mcu
+arch: arm
+ram: 88
+flash: 1024
+toolchain:
+  - zephyr
+supported: []

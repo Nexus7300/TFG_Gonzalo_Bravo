@@ -1,0 +1,10 @@
+identifier: nrf5340_module/nrf5340/cpuapp
+name: nRF5340 Module 
+vendor: UC3M
+type: mcu
+arch: arm
+ram: 448
+flash: 1024
+toolchain:
+  - zephyr
+supported: []

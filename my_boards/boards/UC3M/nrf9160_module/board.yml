@@ -1,0 +1,7 @@
+board:
+  name: nrf9160_module
+  vendor: UC3M
+  socs:
+  - name: nrf9160
+    variants:
+    - name: ns

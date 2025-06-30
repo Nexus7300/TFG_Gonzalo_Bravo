@@ -1,0 +1,10 @@
+identifier: nrf5340_module/nrf5340/cpunet
+name: nRF5340 Module 
+vendor: UC3M
+type: mcu
+arch: arm
+ram: 64
+flash: 256
+toolchain:
+  - zephyr
+supported: []

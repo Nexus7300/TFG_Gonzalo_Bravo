@@ -1,0 +1,19 @@
+/dts-v1/;
+#include <nordic/nrf5340_cpuapp_qkaa.dtsi>
+#include "nrf5340_module-pinctrl.dtsi"
+
+/ {
+	model = "nRF5340 Module  (CPUAPP)";
+	compatible = "UC3M,nrf5340-module-cpuapp";
+
+	chosen {
+		zephyr,sram = &sram0_image;
+		zephyr,flash = &flash0;
+		zephyr,code-partition = &slot0_partition;
+		zephyr,sram-secure-partition = &sram0_s;
+		zephyr,sram-non-secure-partition = &sram0_ns;
+	};
+};
+
+#include "nrf5340_module-cpuapp_partitioning.dtsi"
+#include "nrf5340_module-shared_sram.dtsi"
